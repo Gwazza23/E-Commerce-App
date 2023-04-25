@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+:root{
+  --viewport-width: 100vw;
+}
+
+/* 
+primary - #007CC7
+secondary - #4DA8DA
+tertiary - #12232E
+
+teritary-lighter - #203647 -> ligher - #284359
+*/
+h2{
+  font-family: 'Bebas Neue';
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3{
+  font-family: 'Bebas Neue';
+}
+
+h4{
+  font-family: 'Bebas Neue';
+}
+
+body{
+  background-color: #12232E;
+  color: white;
+  font-family: 'Poppins';
+}
+
+.logo {
+  font-family: 'Sedgwick Ave Display';
+  color:  #007CC7;
+}
+.logo span{
+  color: #4DA8DA
+}
+
+.link {
+  color: #007CC7;
+  text-decoration: none;
+}

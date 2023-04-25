@@ -1,0 +1,62 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form form {
+  border-radius: 5px;
+  background-color: #203647;
+  padding: 20px;
+}
+
+.login-form-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+}
+
+.login-form-div label {
+  color: #4da8da;
+}
+
+.login-form-div input {
+  margin-left: 10px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #4da8da;
+  color: white;
+}
+
+.login-form-div input:focus {
+    outline: none;
+}
+
+.login-form form button {
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+    padding: 7px;
+    border: 2px solid #4da8da;
+    background:  #4da8da;
+    font-size: medium;
+}
+
+.login-form form button:hover {
+    background: white;
+    transition: 0.2s ease-in;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #203647 inset !important;
+}
+input:-webkit-autofill{
+  -webkit-text-fill-color: white !important;
+}

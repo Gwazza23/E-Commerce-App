@@ -1,0 +1,73 @@
+.product-page-header{
+    margin-top: 40px;
+}
+
+.product-page-info {
+    display: flex;
+}
+.product-page-image {
+    margin: 10px;
+    min-width: 400px;
+    max-width: 400px;
+    max-height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-page-image img {
+    width: 400px;
+    height: 450px;
+}
+
+.product-page-description {
+    margin: 5px;
+    width: 40%;
+}
+
+.product-page-cart {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.product-page-price{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.product-page-quantity{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.product-page-cart-details {
+    border-radius: 5px;
+    background: #203647;
+    height: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.product-page-cart-quantity {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.product-page-cart-info {
+    margin: 15px;
+}
+
+.product-page-button{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.product-page-button button{
+    background-color: #007CC7;
+    font-family: 'Bebas Neue';
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}

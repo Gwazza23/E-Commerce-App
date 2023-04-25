@@ -1,0 +1,124 @@
+.homepage-banner {
+  position: relative;
+  height: 550px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-banner::before {
+  content: "";
+  background-image: url("../../../public/images/HomePageBackground.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.55;
+}
+
+.homepage-banner h2 {
+  position: relative;
+  font-family: "Bebas Neue";
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.scroll-down-prompt {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.break {
+  margin-top: 120px;
+  border-color: white;
+}
+
+.trending {
+    position: relative;
+}
+
+.trending h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Bebas Neue';
+}
+
+.trending::before{
+    content: "";
+    background-image: url('../../../public/images/trendingBackground.webp');
+    opacity: 0.55;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.tile-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 50px;
+}
+
+.tile-container img {
+    opacity: 0.95;
+}
+
+.tile-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.tile-wrap h3{
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+
+.tiles {
+    cursor: pointer;
+    max-width: 400px;
+    max-height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories {
+    margin-top: 160px;
+    margin-bottom: 100px;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.categories::before{
+    content: "";
+    background-image: url('../../../public/images/categoriesBackground.jpg');
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.21;
+}
+
+.category {
+    margin: 10px;
+    cursor: pointer;
+
+}
+.category-tiles {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
